@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+}
+
+    header{
+        height: 100vh;
+        display: flex;
+    }
+    img{
+        display: flex;
+        justify-content: start;
+        height: 70px;
+        width: 70px;
+
+    }
+
+#left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+}
+#left1{
+    background-color: rgb(192, 135, 135);
+    color: white;
+    height: 20%;
+    text-align: center;
+}
+#left2{
+    background-color: rgb(142, 179, 142);
+    height:80%  ;
+    color: green;
+ 
+}
+#right{
+    background-color: rgb(149, 158, 187);
+    width: 30%;
+    color:red;
+}
